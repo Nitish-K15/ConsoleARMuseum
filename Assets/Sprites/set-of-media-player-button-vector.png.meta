@@ -1,0 +1,852 @@
+fileFormatVersion: 2
+guid: 65311759387e2e340827bdd7885e82ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2843055579114385310
+    second: set-of-media-player-button-vector_0
+  - first:
+      213: 8870393919816807479
+    second: set-of-media-player-button-vector_1
+  - first:
+      213: 4580119246417081255
+    second: set-of-media-player-button-vector_2
+  - first:
+      213: 6676629123722981765
+    second: set-of-media-player-button-vector_3
+  - first:
+      213: 8179600330312909609
+    second: set-of-media-player-button-vector_4
+  - first:
+      213: -2934356148576945008
+    second: set-of-media-player-button-vector_5
+  - first:
+      213: 2624853459599317871
+    second: set-of-media-player-button-vector_6
+  - first:
+      213: 4862831875828343439
+    second: set-of-media-player-button-vector_7
+  - first:
+      213: 5074707710871141773
+    second: set-of-media-player-button-vector_8
+  - first:
+      213: 1354561313565220882
+    second: set-of-media-player-button-vector_9
+  - first:
+      213: 2108217544627958155
+    second: set-of-media-player-button-vector_10
+  - first:
+      213: -4526760529208503184
+    second: set-of-media-player-button-vector_11
+  - first:
+      213: 8484697936198190593
+    second: set-of-media-player-button-vector_12
+  - first:
+      213: -6120267015610095836
+    second: set-of-media-player-button-vector_13
+  - first:
+      213: -3468283538570829284
+    second: set-of-media-player-button-vector_14
+  - first:
+      213: 731016836690653374
+    second: set-of-media-player-button-vector_15
+  - first:
+      213: 4353980302464569029
+    second: set-of-media-player-button-vector_16
+  - first:
+      213: 1696475666181228048
+    second: set-of-media-player-button-vector_17
+  - first:
+      213: -3414424363392188073
+    second: set-of-media-player-button-vector_18
+  - first:
+      213: 6278488939776585799
+    second: set-of-media-player-button-vector_19
+  - first:
+      213: -5604728927889857661
+    second: set-of-media-player-button-vector_20
+  - first:
+      213: 7389326501411822972
+    second: set-of-media-player-button-vector_21
+  - first:
+      213: 6459358621269230036
+    second: set-of-media-player-button-vector_22
+  - first:
+      213: -2068781389580964995
+    second: set-of-media-player-button-vector_23
+  - first:
+      213: -16492955807574335
+    second: set-of-media-player-button-vector_24
+  - first:
+      213: -1121215950275096769
+    second: set-of-media-player-button-vector_25
+  - first:
+      213: 7910999610057844525
+    second: set-of-media-player-button-vector_26
+  - first:
+      213: 941221466643692959
+    second: set-of-media-player-button-vector_27
+  - first:
+      213: 2810734480324632894
+    second: set-of-media-player-button-vector_28
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 703
+        width: 278
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f2ecd6cff847720800000000000000
+      internalID: 2843055579114385310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 703
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7343770d548f91b70800000000000000
+      internalID: 8870393919816807479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_2
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 700
+        width: 279
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3be97203adf8f30800000000000000
+      internalID: 4580119246417081255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_3
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 703
+        width: 278
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581398050d628ac50800000000000000
+      internalID: 6676629123722981765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_4
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 354
+        width: 279
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92308fcb927c38170800000000000000
+      internalID: 8179600330312909609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 354
+        width: 277
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c769731a21747d0800000000000000
+      internalID: -2934356148576945008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_6
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 354
+        width: 277
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b5fde705a5d6420800000000000000
+      internalID: 2624853459599317871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_7
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 354
+        width: 277
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82e131a3df3c7340800000000000000
+      internalID: 4862831875828343439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_8
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 36
+        width: 278
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8df86da6cbfc6640800000000000000
+      internalID: 5074707710871141773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_9
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 36
+        width: 277
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210aa81865e5cc210800000000000000
+      internalID: 1354561313565220882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_10
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 36
+        width: 277
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81bbc0efa4e14d10800000000000000
+      internalID: 2108217544627958155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_11
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 36
+        width: 278
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07494415847bd21c0800000000000000
+      internalID: -4526760529208503184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_12
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 9
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1064591b1d3bfb570800000000000000
+      internalID: 8484697936198190593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_13
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 8
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427250c6391701ba0800000000000000
+      internalID: -6120267015610095836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_14
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 8
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12a6275f7e2edfc0800000000000000
+      internalID: -3468283538570829284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_15
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 9
+        width: 4
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0b6cb90f7152a00800000000000000
+      internalID: 731016836690653374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_16
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 4
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cec27744027c6c30800000000000000
+      internalID: 4353980302464569029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_17
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 9
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01683dc41a71b8710800000000000000
+      internalID: 1696475666181228048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_18
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 9
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751c193c1278d90d0800000000000000
+      internalID: -3414424363392188073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_19
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 9
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7403a950d6ca12750800000000000000
+      internalID: 6278488939776585799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_20
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 9
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383e4c63cb00832b0800000000000000
+      internalID: -5604728927889857661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_21
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 4
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d180e7d492c8660800000000000000
+      internalID: 7389326501411822972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_22
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 8
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d10c91617044a950800000000000000
+      internalID: 6459358621269230036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_23
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 8
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b661c79463a43e0800000000000000
+      internalID: -2068781389580964995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_24
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 8
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c61bcb7eb765cff0800000000000000
+      internalID: -16492955807574335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_25
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 8
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fc95f9804a070f0800000000000000
+      internalID: -1121215950275096769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_26
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 8
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2760c72b3489cd60800000000000000
+      internalID: 7910999610057844525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_27
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 8
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9df446efe3ef0d00800000000000000
+      internalID: 941221466643692959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-of-media-player-button-vector_28
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 0
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3121b13e1cb10720800000000000000
+      internalID: 2810734480324632894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

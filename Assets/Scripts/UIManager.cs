@@ -7,6 +7,7 @@ using TMPro;
 
 public class UIManager : MonoBehaviour
 {
+    public RenderTexture renderTexture;
     public ARSessionManager ArSessionManager;
     public TMP_Text MessageText;
     public RectTransform MessagePanel,MainMenu,GenSelect,Controller;
@@ -43,6 +44,7 @@ public class UIManager : MonoBehaviour
         Controller.gameObject.SetActive(false);
         GameObject clearUp = GameObject.FindGameObjectWithTag("ARMultiModel");
         Destroy(clearUp);
+        renderTexture.Release();
     }
 
     public void ExitAPP()
