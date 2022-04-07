@@ -96,8 +96,6 @@ public class ARPlacement : MonoBehaviour
         {
             if (i == id)
             {
-               /* GameObject clearUp = GameObject.FindGameObjectWithTag("ARMultiModel");
-                Destroy(clearUp);*/
                 spawnedObject = Instantiate(arModels[i], PlacementPose.position, PlacementPose.rotation);
             }
         }
