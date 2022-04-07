@@ -32,9 +32,10 @@ public class ScaleAndRotateSlider : MonoBehaviour
 
         rotateSlider.onValueChanged.AddListener(RotateSliderUpdate);
 
-
+        scaleSlider.value = 1f;
+        rotateSlider.value = transform.localEulerAngles.y;
     }
-
+    
     void ScaleSliderUpdate(float value)
     {
         transform.localScale = new Vector3(value, value, value);

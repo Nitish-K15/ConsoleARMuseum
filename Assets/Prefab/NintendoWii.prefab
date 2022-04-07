@@ -161,7 +161,7 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
   m_WaitForFirstFrame: 1
@@ -193,7 +193,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2351007879963983135}
   m_LocalRotation: {x: -0, y: -0.16265024, z: -0, w: 0.9866838}
-  m_LocalPosition: {x: 0, y: 0, z: -0.315}
+  m_LocalPosition: {x: 0, y: 0, z: -0.493}
   m_LocalScale: {x: 0.008133192, y: 0.008133193, z: 0.008133192}
   m_Children:
   - {fileID: 4030922814059647615}
@@ -203,7 +203,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -18.722, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.529, y: 0.136}
+  m_AnchoredPosition: {x: -1.122, y: 0.136}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8232266894157227266
@@ -494,7 +494,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 2625645862522822623}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.14847352
+  m_Size: 0.1484735
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -920,7 +920,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8892339676664572530}
   m_LocalRotation: {x: -0, y: 0.23988737, z: -0, w: 0.97080076}
-  m_LocalPosition: {x: 0, y: 0, z: -0.26}
+  m_LocalPosition: {x: 0, y: 0, z: -0.41}
   m_LocalScale: {x: 0.0039868006, y: 0.003986801, z: 0.0039868006}
   m_Children:
   - {fileID: 142771864999966664}
@@ -930,7 +930,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 27.76, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.173, y: 0.08}
+  m_AnchoredPosition: {x: 1.1, y: 0.08}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2754918480493688524
@@ -1129,7 +1129,7 @@ Transform:
   m_GameObject: {fileID: 9148733182219152265}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children:
   - {fileID: 1533941755507971274}
   - {fileID: 7596627484383802788}

@@ -16,6 +16,7 @@ public class ARPlacement : MonoBehaviour
     private Pose PlacementPose;
     public ARRaycastManager aRRaycastManager;
     private bool placementPoseIsValid = false;
+    public bool gen = false;
 
     public GameObject[] arModels;
     int modelIndex = 0;
@@ -23,7 +24,6 @@ public class ARPlacement : MonoBehaviour
 
     private void OnEnable()
     {
-        Controller.SetActive(true);
         UnityEngine.Events.UnityAction action1 = () => { this.ModelChangeLeft(); };
         LeftRow.onClick.AddListener(action1);
         UnityEngine.Events.UnityAction action2 = () => { this.ModelChangeRight(); };
@@ -44,6 +44,16 @@ public class ARPlacement : MonoBehaviour
         {
             ARPlaceObject(modelIndex);
            Controller.SetActive(true);
+            if(gen)
+            {
+                LeftRow.gameObject.SetActive(false);
+                RightArrow.gameObject.SetActive(false);
+            }
+            else
+            {
+                LeftRow.gameObject.SetActive(true);
+                RightArrow.gameObject.SetActive(true);
+            }
         }
 
 
@@ -86,8 +96,8 @@ public class ARPlacement : MonoBehaviour
         {
             if (i == id)
             {
-                GameObject clearUp = GameObject.FindGameObjectWithTag("ARMultiModel");
-                Destroy(clearUp);
+               /* GameObject clearUp = GameObject.FindGameObjectWithTag("ARMultiModel");
+                Destroy(clearUp);*/
                 spawnedObject = Instantiate(arModels[i], PlacementPose.position, PlacementPose.rotation);
             }
         }
@@ -98,6 +108,7 @@ public class ARPlacement : MonoBehaviour
 
     public void ModelChangeRight()
     {
+        Destroy(spawnedObject);
         rt.Release();
         if (modelIndex < arModels.Length - 1)
             modelIndex++;
@@ -108,6 +119,7 @@ public class ARPlacement : MonoBehaviour
     }
     public void ModelChangeLeft()
     {
+        Destroy(spawnedObject);
         rt.Release();
         if (modelIndex > 0)
             modelIndex--;
