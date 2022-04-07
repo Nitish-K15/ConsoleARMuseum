@@ -14,7 +14,7 @@ public class SpawnManagers : MonoBehaviour
         num = id;
     }
 
-    public void Deactivate(int num)
+    public void Deactivate()
     {
         managers[num].SetActive(false);
     }

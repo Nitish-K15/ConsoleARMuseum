@@ -384,8 +384,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -5.3000064, y: 0}
+  m_SizeDelta: {x: 10.599989, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &27152241
 MonoBehaviour:
@@ -407,7 +407,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Back
+  m_text: X
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -434,8 +434,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 164.12
+  m_fontSizeBase: 164.12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -767,10 +767,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88078457cd3697a4094493172a89c931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rt: {fileID: 8400000, guid: 919d876a820422d43ad8ea50200c0c96, type: 2}
   Controller: {fileID: 622076049}
   LeftRow: {fileID: 1265039265}
   RightArrow: {fileID: 75650962}
   placementIndicator: {fileID: 1471978977}
+  aRRaycastManager: {fileID: 13241498}
   arModels:
   - {fileID: 1082911284988638900, guid: 356e40d11d758ef4d87f5faa5fc654c1, type: 3}
   - {fileID: 111606460485569640, guid: 8106eff2f5524c04eb309d8377bc19fd, type: 3}
@@ -1148,10 +1150,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88078457cd3697a4094493172a89c931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rt: {fileID: 8400000, guid: 919d876a820422d43ad8ea50200c0c96, type: 2}
   Controller: {fileID: 622076049}
   LeftRow: {fileID: 1265039265}
   RightArrow: {fileID: 75650962}
   placementIndicator: {fileID: 1471978977}
+  aRRaycastManager: {fileID: 13241498}
   arModels:
   - {fileID: 7754220057285922659, guid: 79d212689ead4c74c9edd1a2617ee8ae, type: 3}
   - {fileID: 4373880875046140631, guid: b332b69d98e7a6549bca56c2fca0b65e, type: 3}
@@ -1198,10 +1202,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88078457cd3697a4094493172a89c931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rt: {fileID: 8400000, guid: 919d876a820422d43ad8ea50200c0c96, type: 2}
   Controller: {fileID: 622076049}
   LeftRow: {fileID: 1265039265}
   RightArrow: {fileID: 75650962}
   placementIndicator: {fileID: 1471978977}
+  aRRaycastManager: {fileID: 13241498}
   arModels:
   - {fileID: 7392882140845119520, guid: 1f5d0a49846ed64408a0abd43c3b649e, type: 3}
   - {fileID: 4311499349961213722, guid: 68f9c43c96a0a2e40957ad4cd46838f6, type: 3}
@@ -1487,10 +1493,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88078457cd3697a4094493172a89c931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rt: {fileID: 8400000, guid: 919d876a820422d43ad8ea50200c0c96, type: 2}
   Controller: {fileID: 622076049}
   LeftRow: {fileID: 1265039265}
   RightArrow: {fileID: 75650962}
   placementIndicator: {fileID: 1471978977}
+  aRRaycastManager: {fileID: 13241498}
   arModels:
   - {fileID: 2466886797007299851, guid: a1a881a686133e84cb890bb719034706, type: 3}
   - {fileID: 5915756311904259808, guid: 5c6b65682c01f1c418465c36e6e73ec8, type: 3}
@@ -1672,10 +1680,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88078457cd3697a4094493172a89c931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rt: {fileID: 8400000, guid: 919d876a820422d43ad8ea50200c0c96, type: 2}
   Controller: {fileID: 622076049}
   LeftRow: {fileID: 1265039265}
   RightArrow: {fileID: 75650962}
   placementIndicator: {fileID: 1471978977}
+  aRRaycastManager: {fileID: 13241498}
   arModels:
   - {fileID: 848740489908689432, guid: 6af801b7360d6fb469dc65a29a567b4f, type: 3}
   - {fileID: 4433776429178585428, guid: 8ead594fa0b008844a29ff17ec1e2a43, type: 3}
@@ -2146,10 +2156,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88078457cd3697a4094493172a89c931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rt: {fileID: 8400000, guid: 919d876a820422d43ad8ea50200c0c96, type: 2}
   Controller: {fileID: 622076049}
   LeftRow: {fileID: 1265039265}
   RightArrow: {fileID: 75650962}
   placementIndicator: {fileID: 1471978977}
+  aRRaycastManager: {fileID: 13241498}
   arModels:
   - {fileID: 7990840174936511931, guid: 8cb6a3e736679a04f9fc833cb0d8d1dc, type: 3}
   - {fileID: 651546287301182721, guid: 552b7f2a061c2b640a45e3ba80aa9d8b, type: 3}
@@ -4246,10 +4258,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88078457cd3697a4094493172a89c931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rt: {fileID: 8400000, guid: 919d876a820422d43ad8ea50200c0c96, type: 2}
   Controller: {fileID: 622076049}
   LeftRow: {fileID: 1265039265}
   RightArrow: {fileID: 75650962}
   placementIndicator: {fileID: 1471978977}
+  aRRaycastManager: {fileID: 13241498}
   arModels:
   - {fileID: 7130023413339334908, guid: 4cebeddf81dd5e04cbf9ff7d16f247ea, type: 3}
   - {fileID: 9148733182219152265, guid: f08d5e4f7048cb84cb50af0258f7c442, type: 3}
@@ -4798,7 +4812,7 @@ RectTransform:
   m_GameObject: {fileID: 1693891458}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.1164, y: 2.1164, z: 2.1164}
+  m_LocalScale: {x: 0.84535366, y: 0.84535366, z: 0.84535366}
   m_Children:
   - {fileID: 27152240}
   m_Father: {fileID: 622076050}
@@ -4806,8 +4820,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -746, y: 1616}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -816, y: 1772}
+  m_SizeDelta: {x: 277, y: 278}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1693891460
 MonoBehaviour:
@@ -4868,7 +4882,7 @@ MonoBehaviour:
       - m_Target: {fileID: 615485142}
         m_TargetAssemblyTypeName: SpawnManagers, Assembly-CSharp
         m_MethodName: Deactivate
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4897,8 +4911,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4944,10 +4958,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88078457cd3697a4094493172a89c931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rt: {fileID: 8400000, guid: 919d876a820422d43ad8ea50200c0c96, type: 2}
   Controller: {fileID: 622076049}
   LeftRow: {fileID: 1265039265}
   RightArrow: {fileID: 75650962}
   placementIndicator: {fileID: 1471978977}
+  aRRaycastManager: {fileID: 13241498}
   arModels:
   - {fileID: 728650478424656738, guid: c3be7b2418bf5bb458fbe0f8b3cc9d7d, type: 3}
   - {fileID: 2276835025023860774, guid: ea36e8af02c438541abd46797afa7404, type: 3}
@@ -4994,10 +5010,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88078457cd3697a4094493172a89c931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rt: {fileID: 8400000, guid: 919d876a820422d43ad8ea50200c0c96, type: 2}
   Controller: {fileID: 622076049}
   LeftRow: {fileID: 1265039265}
   RightArrow: {fileID: 75650962}
   placementIndicator: {fileID: 1471978977}
+  aRRaycastManager: {fileID: 13241498}
   arModels:
   - {fileID: 3472749154833285085, guid: 47757af54ef102a4bac23be208bffb79, type: 3}
 --- !u!4 &1739954847

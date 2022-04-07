@@ -7,23 +7,19 @@ using UnityEngine.XR.ARSubsystems;
 
 public class ARPlacement : MonoBehaviour
 {
-
+    public RenderTexture rt;
     public GameObject Controller;
     public Button LeftRow, RightArrow;
     // public GameObject arObjectToSpawn;
     public GameObject placementIndicator;
     private GameObject spawnedObject;
     private Pose PlacementPose;
-    private ARRaycastManager aRRaycastManager;
+    public ARRaycastManager aRRaycastManager;
     private bool placementPoseIsValid = false;
 
     public GameObject[] arModels;
     int modelIndex = 0;
 
-    void Start()
-    {
-        aRRaycastManager = FindObjectOfType<ARRaycastManager>();
-    }
 
     private void OnEnable()
     {
@@ -102,6 +98,7 @@ public class ARPlacement : MonoBehaviour
 
     public void ModelChangeRight()
     {
+        rt.Release();
         if (modelIndex < arModels.Length - 1)
             modelIndex++;
         else
@@ -111,6 +108,7 @@ public class ARPlacement : MonoBehaviour
     }
     public void ModelChangeLeft()
     {
+        rt.Release();
         if (modelIndex > 0)
             modelIndex--;
         else

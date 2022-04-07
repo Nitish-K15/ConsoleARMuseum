@@ -243,9 +243,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6075560391198406045}
-        m_TargetAssemblyTypeName: VP, Assembly-CSharp
-        m_MethodName: PlayVideo
+      - m_Target: {fileID: 6000494229602065202}
+        m_TargetAssemblyTypeName: UnityEngine.Video.VideoPlayer, UnityEngine
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -623,9 +623,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6075560391198406045}
-        m_TargetAssemblyTypeName: VP, Assembly-CSharp
-        m_MethodName: StopVideo
+      - m_Target: {fileID: 6000494229602065202}
+        m_TargetAssemblyTypeName: UnityEngine.Video.VideoPlayer, UnityEngine
+        m_MethodName: Pause
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -645,7 +645,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1640593176532027482}
   - component: {fileID: 6000494229602065202}
-  - component: {fileID: 6075560391198406045}
   m_Layer: 0
   m_Name: Video Player
   m_TagString: Untagged
@@ -702,18 +701,6 @@ VideoPlayer:
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
---- !u!114 &6075560391198406045
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3438251114334692140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42b797e2226cee443bad31e6e4fb283c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4408839428191617125
 GameObject:
   m_ObjectHideFlags: 0
