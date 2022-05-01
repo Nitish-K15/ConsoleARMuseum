@@ -10,7 +10,6 @@ public class ARPlacement : MonoBehaviour
     public RenderTexture rt;
     public GameObject Controller;
     public Button LeftRow, RightArrow;
-    // public GameObject arObjectToSpawn;
     public GameObject placementIndicator;
     private GameObject spawnedObject;
     private Pose PlacementPose;
@@ -37,7 +36,6 @@ public class ARPlacement : MonoBehaviour
         spawnedObject = null;
     }
 
-    // need to update placement indicator, placement pose and spawn 
     void Update()
     {
         if (spawnedObject == null && placementPoseIsValid && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
